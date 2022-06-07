@@ -1,6 +1,6 @@
 pipeline {
-   agent any
-   environment {
+  agent docker 
+  environment {
        registry = "magalixcorp/k8scicd"
        GOCACHE = "/tmp"
    }
